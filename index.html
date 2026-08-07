@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Join Callie's Club</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
+  <link rel="stylesheet" href="style.css">	
 </head>
 <body>
 	<header>
@@ -24,24 +25,31 @@
 		</section>
 		<section id="why">
 			<h2>Why join</h2>
-			<article><h3>It's free!</h3><p>No cost to you.</p></article>
+			<article><h3>It's free!</h3><p>No cost to you or your hooman.</p></article>
 			<article><h3>It's fun!</h3><p>All the catnip you can smell.</p></article>
-			<article><h3>It's fantastic!</h3><p>Comraderie with other felines.</p></article>
+			<article><h3>It's fantastic!</h3><p>Comradery with other felines.</p></article>
 		</section>
 		<section id="join">
 			<h2>Join</h2>
 			<form>
-			<label>Your name
-				<input id="member-name" name="member-name" type="text" required placeholder="Ada">
-			</label>	
-			<label>Email (if you want news)
-				<input id="member-email" name="member-email" type="email">
-			</label>
-			<label> Choose password
-				 <input id="member-password" name="member-password" type="password" required>
-			</label>
-			<button>Join the club</button>
+				<label>Your name
+					<input id="member-name" name="member-name" type="text" required placeholder="Ada">
+				</label>	
+				<label>Email (if you want news)
+					<input id="member-email" name="member-email" type="email">
+				</label>
+				<label> Choose password
+					<input id="member-password" name="member-password" type="password" required>
+				</label>
+				<button>Join the club</button>
 			</form>
+		</section>
+		<section id="field-notes">
+			<h2>Field notes: block and inline</h2>
+			<p>A paragraph is a block. Inside it, <strong>strong words</strong>,
+				<a href="#welcome">links</a>, and <span>plain spans</span> stay in line.</p>
+			<div>A div takes the whole row.</div>
+			<p>So does a paragraph.</p>
 		</section>
 	</main>
 	<footer>
