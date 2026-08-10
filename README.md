@@ -12,4 +12,4 @@ and fellowhip.
 - #4 - Added README
 
 
-Live page: https://lanettebethea.github.io/buttons-rescue/
+Live page: https://lanettebethea.github.io/signup-page/
